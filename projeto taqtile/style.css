@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: #7c9d96;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #e9b384;
+    position: fixed;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    font-family: "Sarala", sans-serif;
+    color: #f4f2de;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.conteudo {
+    border-top: 1px solid #a1ccd1;
+    margin-bottom: 30px;
+}
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.conteudo-principal-formacao {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #f4f2de;
+}
+
+.conteudo-principal-formacao-titulo {
+    font-family: "Righteous", cursive;
+    color: #f4f2de;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.conteudo-principal-formacao-titulo-estudo {
+    font-family: "Sarala", sans-serif;
+    color: #f4f2de;
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.conteudo-principal-imagem {
+    height: 400px;
+}
+
+.conteudo-objetivo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.conteudo-objetivo-paragrafo {
+    border-top: 1px solid #a1ccd1;
+    padding-top: 30px;
+    font-size: 15px;
+    color: #f4f2de;
+}
+.conteudo-objetivo-paragrafo2 {
+    font-size: 15px;
+    color: #f4f2de;
+}
+
+.barra-navegacao {
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+    font-size: 15px;
+    color: #f4f2de;
+}
+
+strong {
+    color: #e9b384;
+}
+
+.barra-navegacao {
+    flex-direction: column;
+    color: #f4f2de;
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+#sobre-mim-titulo {
+    font-family: "Sarala", sans-serif;
+    color: #ffffff;
+}
+
+#contato-titulo {
+    font-family: "Sarala", sans-serif;
+    color: #ffffff;
+}
+
+#projeto-titulo {
+    font-family: "Sarala", sans-serif;
+    color: #ffffff;
+}
+
+.paragrafo-sobre-mim {
+    margin: 10px;
+    font-size: 15px;
+    color: #f4f2de;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagem1 {
+    width: 250px;
+    border: dotted 6px #e9b384;
+}
+
+.imagem2 {
+    width: 250px;
+    border: dotted 6px #e9b384;
+}
+
+.imagem3 {
+    width: 250px;
+    border: dotted 6px #e9b384;
+}
+
+a {
+    color: #f4f2de;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 2px;
+}
+
+.rodape {
+    padding: 20px;
+    border-top: 1px solid #a1ccd1;
+    color: #f4f2de;
+    text-align: center;
+    font-family: "Sarala", sans-serif;
+    background-color: #e9b384;
+}
